@@ -44,7 +44,7 @@ function App() {
     <div>
       <div className="form_div">
         <form action="" className="form" onSubmit={handleSubmit(submit)}>
-          <label htmlFor="">Hello update with CICD</label>
+          <label htmlFor="">Hello update with CICD test</label>
           <input type="text" placeholder="Title" {...register("title")} />
           <div
             style={{
